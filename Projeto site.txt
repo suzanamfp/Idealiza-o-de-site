@@ -1,0 +1,376 @@
+<head>
+
+   <title>PROJETO</title>
+
+<style>
+
+body {background-color:lightgrey;
+	  width: 900px; 
+	  margin: auto;}
+
+.menu {width: 100%; 
+	  background-color: black; 
+	  height: 140px; 
+	  color: white;
+	  margin: 0px;}	
+
+#conteudo_esquerdo_menu {color: white;
+						font-family: "Times New Roman", Times, serif;
+						font-size: 10px;
+						display: block;
+						float: left;}
+						
+#imgem_menu {float: left;
+			margin-top: 30px;}
+
+#nomes_menu {float: left;
+			width: 200px;
+			text-align: left;
+			margin-top: 30px;
+			color: white;
+			font-family: "Times New Roman", Times, serif;
+			font-size: 8px;}
+			
+span1 {color:#00BFFF;}
+
+h1 {color: white;}
+
+
+#conteudo_direito_menu {float: right;
+						width: 500px;
+						color: white;
+						font-family: "Times New Roman", Times, serif;
+						font-size: 15px;}
+	
+ul {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+  margin-top: 30px;
+}
+
+li {
+	float: left;
+	border-right: 1px solid white;
+	padding-bottom: 1px;
+	
+}
+
+li a {display: block;
+	  color: white;
+	  text-align: center;
+	  padding: 10px;
+	  text-decoration: none;}
+
+li a:hover {background-color: #111111;}
+
+#top {float: left;
+	  background-image: url('barcoprincipal.png'); 
+	  width: 100%;
+	  height: 450px; 
+	  background-repeat: no-repeat;}
+	  
+#contato {width: 350px;
+	      background-color: black; 
+	      margin-right: 10px;
+	      margin-top: 260px;
+	      display: block-bottom;
+	      float: right;
+	      color: white;
+	      font-family: "Times New Roman", Times, serif;
+	      font-size: 14px;
+	      text-align: center;
+	      opacity: 0.80;
+		  padding: 5px;
+}
+
+span2 {color:#00BFFF;}
+
+
+#texto1 {float: left;
+		 width: 100%;
+		 color: white;
+		 font-family: "Times New Roman", Times, serif;
+		 font-size: 17px;
+		 text-align: center;
+		 font-style: italic;}
+		
+#texto2 {float: left;
+		width: 30px;
+		text-align: left;}
+
+#texto3 {float: left;
+		width: 310px;
+		text-align: left;
+		color: white;
+		font-family: "Times New Roman", Times, serif;
+		font-size: 14px;
+		font-style: italic;
+}
+		
+span3 {color: #DAA520;}
+
+#parte_baixa {background-color: white;
+		      width: 100%; 
+		      color: black;
+		      margin-top: 2px;
+			  float: left; 
+			  background-repeat: no-repeat;}
+			
+		
+
+#lado_esquerdo {width: 450px; 
+		       
+		      margin: 0px;
+			  float: left;}
+			  
+.topoE 	{width: 420px;
+		height: 42px;
+		background-color: #87CEEB; 
+	    margin-left: 8px;
+	    margin-top: 10px;
+	    float: left;
+	    color: white;
+	    font-family: "Times New Roman", Times, serif;
+	    font-size: 15px;
+		font-style: italic;}
+		 
+.parte1E {float: left;
+		  width: 45px;
+		  margin-left: 2px;
+		  margin-top: 1px;}
+		  
+.parte1EText {
+		  float: left;
+		  margin: 11px 0px 0px 10px;
+		  }
+		  
+.parte2E {float: left;
+		  width: 420px;
+		  text-align: left;
+		  margin-top: 1px;
+		  margin-left: 8px;
+		  color: black;
+		  font-family: "Times New Roman", Times, serif;
+		  font-size: 14px;
+		  font-style: italic;}
+	     
+.parte3E {float: left;
+		  width: 420px;
+		  text-align: left;
+		  margin-top: 1px;
+		  margin-left: 8px;
+		  color: black;
+		  font-family: "Times New Roman", Times, serif;
+		  font-size: 12px;}
+	     
+.barcoE {margin-left: 3px;
+	     margin-top: 20px;
+	     float: left;}
+
+#lado_direito {width: 50%; 
+		       
+		      margin: 0px;
+			  float: right;}
+
+.topoD 	{width: 420px;
+		height: 42px;
+		background-color: #D2BA8C; 
+	    margin-left: 8px;
+	    margin-top: 10px;
+	    float: left;
+	    color: white;
+	    font-family: "Times New Roman", Times, serif;
+	    font-size: 15px;
+		font-style: italic;}
+		 
+#parte1D {position: absolute;
+		  float: right;
+		  width: 20px;
+		  margin-left: 1px;
+		  margin-top: 1px;}
+		 
+#parte2D {position: relative;
+		  float: left;
+		  width: 250px;
+		  text-align: left;
+		  margin-top: 1px;
+		  margin-right: 10px;
+		  color: black;
+		  font-family: "Times New Roman", Times, serif;
+		  font-size: 14px;
+		  font-style: italic;}
+		  
+#parte3D {float: left;
+		  width: 280px;
+		  text-align: left;
+		  margin-top: 1px;
+		  margin-right: 5px;
+		  color: black;
+		  font-family: "Times New Roman", Times, serif;
+		  font-size: 12px;}
+		  
+#4_imagens {
+		width: 450px;
+		height: 150px;
+		margin-right: 3px;
+	    margin-top: 23px;
+	    float: right;}
+
+
+.frota {
+		float: left; 
+		margin: 5px;
+		width: 180px;
+}
+	
+		
+#final {position: relative;
+		width:100%;
+		hight:25px;
+		float: left;
+		margin-left: 0px;
+		margin-top: 27px;
+		background-color:#ebebeb;}
+		
+#rodape {clear: both;
+		margin-left: 6px;
+		font-family: "Times New Roman", Times, serif;
+		font-size: 10px;
+		color: black;}
+
+	
+</style>
+
+ </head>
+
+<body>
+	
+	<div id="menu" class="menu">
+		<div id="conteudo_esquerdo_menu">
+			<div id="imgem_menu">
+				<img src="barco1.png"/>
+			</div>
+		<div id="nomes_menu">
+			<h1><span1>Luxo</span1></h1>
+			<h1> Aluguel de Iates </h1>	
+		</div>
+		
+		<div id="conteudo_direito_menu">
+			<ul> 
+
+				<li><a href="#"><span2>Página inicial</span2></a></li>
+				<li><a href="#">Aluguel de Iates</a></li>
+				<li><a href="#">Destino</a></li>
+				<li><a href="#">Tripulação</a></li>
+				<li><a href="#">Contato</a></li>
+
+			</ul>
+		</div>
+		
+	</div>
+		
+		
+	</div>
+	
+	<div id="top">
+		<div>
+			<div id="contato">
+				<div id="texto1">
+					<p> Você só encontra coisas boas, se combinar luxo e paixão.</p>
+				</div>
+				<div id="texto2">
+					<img src="barco2.png">
+				</div>
+				<div id="texto3">
+					<div>Ligue agora para agendar as férias da sua vida:<span3>(00)8000-0000</span3></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="parte_baixa">
+		<div id="lado_esquerdo">
+			<div class="topoE">
+				<div class="parte1E">
+					<img src="destino.png"/>
+				</div>
+				<div class="parte1EText">
+					Destinos
+				</div>
+			</div>
+
+		
+		
+			<div class="parte2E">
+				<h4>Sou um título. Clique aqui para me editar.</h4>
+			</div>
+		
+			<div class="parte3E">
+				<p>Clique aqui para adicionar seu texto e me editar. É fácil basta clicar em "Editar Texto" ou clicar duas vezes sobre mim e poderá adicionar seu próprio 
+				conteúdo e mudar fontes. Sou um ótimo lugar para contar suas histórias e permitir que seus visitantes saibam um pouco mais sobre você.</p>
+			</div>
+		
+			<div class="barcoE">
+				<img width="350px" height="150px" src="barcodestino.png"/>
+			</div>	
+		</div>
+
+		<div id="lado_direito">
+			<div class="topoD">
+				<div class="parte1E">
+					<img src="nossafrota.png"/>
+				</div>
+				<div class="parte1EText">
+					Nossa frota
+				</div>
+			</div>
+	
+			<div class="parte2E">
+				<h4>Sou um título. Clique aqui para me editar.</h4>
+			</div>
+		
+			<div class="parte3E">
+				<p>Clique aqui para adicionar seu texto e me editar. É fácil basta clicar em "Editar Texto" ou clicar duas vezes sobre mim e poderá adicionar seu próprio 
+		     conteúdo e mudar fontes. Sou um ótimo lugar para contar suas histórias e permitir que seus visitantes saibam um pouco mais sobre você.</p>
+			</div>
+				
+			<div id="4_imagens">
+
+				<div class="frota">
+					<img width="170px" height="85px"src="barconossafrota1.png" />
+					<br />
+					<br />
+					<img width="170px" height="85px" src="barconossafrota2.png" />
+				</div>
+
+				<div class="frota">
+					<img width="170px" height="85px" src="barconossafrota2.png" />
+					<br />
+					<br />
+					<img width="170px" height="85px" src="barconossafrota1.png" />
+				</div>
+
+			</div>
+				
+		</div>
+			
+		<div id="final">
+			<div id="rodape">
+				<h4> ©2013 por luxo alugel de Iates. Orgulhosamente criado por <a href="www.wix.com.br"> Wix.com </a> </h4>
+			</div>			
+				
+		</div>
+	</div>
+	
+	
+
+
+
+   
+
+    
+</body>
+
+</html> 
